@@ -1,0 +1,23 @@
+# Material de terceiros (vídeo, legendas, transcrições, folhas de quadros e PDFs de cursos):
+# fica só no computador, para estudo, e nunca vai para o GitHub.
+refs/*
+!refs/.gitkeep
+
+# Mídia pesada, em qualquer pasta
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.m4a
+*.mp3
+*.wav
+*.opus
+
+# Arquivos locais do Claude Code (permissões desta máquina e cópias de trabalho)
+.claude/settings.local.json
+.claude/worktrees/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
